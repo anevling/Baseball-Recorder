@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#663300"
+    tools:context=".SummaryDetailActivity">
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingBottom="15dp"
+        android:text="@string/game_date"
+        android:textColor="#FFffff"/>
+
+    <TextView
+        android:id="@+id/editDateText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/dateText"
+        android:layout_alignBaseline="@+id/dateText"
+        android:textColor="#FFffff"
+        android:text="yyyy-MM-DD HH:mm"/>
+    <TextView
+        android:id="@+id/nameText"
+        android:textColor="#FFffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/dateText"
+        android:layout_alignEnd="@+id/dateText"
+        android:text="@string/player_name"/>
+
+    <TextView
+        android:id="@+id/editNameText"
+        android:textColor="#FFffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/nameText"
+        android:layout_alignBaseline="@+id/nameText"
+        android:text="A"/>
+
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:textColor="#FFffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/nameText"
+        android:layout_alignEnd="@+id/dateText"
+        android:text="@string/game_score"/>
+
+    <TextView
+        android:id="@+id/editScoreText"
+        android:textColor="#FFffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/scoreText"
+        android:layout_alignBaseline="@+id/scoreText"
+        android:text="A to B"/>
+
+    <TextView
+        android:id="@+id/RunScoreText"
+        android:textColor="#FFffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/atBatsText"
+        android:layout_alignEnd="@+id/scoreText"
+        android:text="@string/runs_scored"/>
+
+    <TextView
+        android:id="@+id/editRunsScoredText"
+        android:textColor="#FFffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/RunScoreText"
+        android:layout_alignBaseline="@+id/RunScoreText"
+        android:text="0"/>
+
+
+
+    <TextView
+        android:id="@+id/atBatsText"
+        android:textColor="#FFffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/scoreText"
+        android:layout_alignLeft="@+id/dateText"
+        android:text="@string/game_at_bats"/>
+
+    <TextView
+        android:id="@+id/editAtBatsText"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/atBatsText"
+        android:layout_alignBaseline="@+id/atBatsText"
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/HitsText"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/RunScoreText"
+        android:layout_alignLeft="@+id/dateText"
+        android:text="@string/game_hits"/>
+
+    <TextView
+        android:id="@+id/editHitsText"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/HitsText"
+        android:layout_alignBaseline="@+id/HitsText"
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/stealsText"
+        android:layout_width="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/HitsText"
+        android:layout_alignLeft="@id/HitsText"
+        android:text="@string/game_steals"/>
+
+    <TextView
+        android:id="@+id/editStealsText"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/stealsText"
+        android:layout_alignBaseline="@+id/stealsText"
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/singlesText"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/stealsText"
+        android:layout_alignLeft="@+id/stealsText"
+        android:text="@string/singles"/>
+
+    <TextView
+        android:id="@+id/editSinglesText"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/singlesText"
+        android:layout_alignBaseline="@+id/singlesText"
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/doublesText"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/singlesText"
+        android:layout_alignLeft="@+id/singlesText"
+        android:text="@string/doubles"/>
+
+    <TextView
+        android:id="@+id/editDoublesText"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/doublesText"
+        android:layout_alignBaseline="@+id/doublesText"
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/triplesText"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/doublesText"
+        android:layout_alignLeft="@+id/doublesText"
+        android:text="@string/triples"/>
+
+    <TextView
+        android:id="@+id/editTriplesText"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/triplesText"
+        android:layout_alignBaseline="@+id/triplesText"
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/homeRunsText"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/triplesText"
+        android:layout_alignLeft="@+id/triplesText"
+        android:text="@string/home_runs"/>
+
+    <TextView
+        android:id="@+id/editHomeRunsText"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/homeRunsText"
+        android:layout_alignBaseline="@+id/homeRunsText"
+        android:text="0"/>
+
+
+    <TextView
+        android:id="@+id/RBIsText"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/homeRunsText"
+        android:layout_alignLeft="@+id/homeRunsText"
+        android:text="@string/runs_batted_in"/>
+
+    <TextView
+        android:id="@+id/editRBIsText"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/RBIsText"
+        android:layout_alignBaseline="@+id/RBIsText"
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/fieldOutsText"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/RBIsText"
+        android:layout_alignLeft="@+id/RBIsText"
+        android:text="@string/field_outs"/>
+
+    <TextView
+        android:id="@+id/editfieldOutsText"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/fieldOutsText"
+        android:layout_alignBaseline="@+id/fieldOutsText"
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/walksText"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/strikeoutsText"
+        android:layout_alignLeft="@+id/dateText"
+        android:text="@string/walks"/>
+
+    <TextView
+        android:id="@+id/editWalksText"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/walksText"
+        android:layout_alignBaseline="@+id/walksText"
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/strikeoutsText"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/fieldOutsText"
+        android:layout_alignLeft="@+id/walksText"
+        android:text="@string/strikeouts"/>
+
+    <TextView
+        android:id="@+id/editStrikeoutsText"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/strikeoutsText"
+        android:layout_alignBaseline="@+id/strikeoutsText"
+        android:text="0"/>
+
+</RelativeLayout>
+</ScrollView>

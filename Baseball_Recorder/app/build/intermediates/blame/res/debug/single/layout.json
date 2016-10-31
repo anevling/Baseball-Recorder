@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Libraries\\My Documents\\School\\CS 498\\Android Project\\ActivityLifecycle\\sports_recorder\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Libraries\\My Documents\\School\\CS 498\\Android Project\\ActivityLifecycle\\sports_recorder\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Libraries\\My Documents\\School\\CS 498\\Android Project\\ActivityLifecycle\\sports_recorder\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_drawer_list_item.xml",
+        "source": "D:\\Libraries\\My Documents\\School\\CS 498\\Android Project\\ActivityLifecycle\\sports_recorder\\app\\src\\main\\res\\layout\\nav_drawer_list_item.xml"
+    },
+    {
+        "merged": "D:\\Libraries\\My Documents\\School\\CS 498\\Android Project\\ActivityLifecycle\\sports_recorder\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_summary_detail.xml",
+        "source": "D:\\Libraries\\My Documents\\School\\CS 498\\Android Project\\ActivityLifecycle\\sports_recorder\\app\\src\\main\\res\\layout\\activity_summary_detail.xml"
+    },
+    {
+        "merged": "D:\\Libraries\\My Documents\\School\\CS 498\\Android Project\\ActivityLifecycle\\sports_recorder\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_summary_detail.xml",
+        "source": "D:\\Libraries\\My Documents\\School\\CS 498\\Android Project\\ActivityLifecycle\\sports_recorder\\app\\src\\main\\res\\layout\\fragment_summary_detail.xml"
+    }
+]

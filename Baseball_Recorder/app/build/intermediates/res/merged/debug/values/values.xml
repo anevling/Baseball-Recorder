@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#0000FF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackgroundGreen">#0fff02</color>
+    <color name="colorMediumBlue">#0000CD</color>
+    <color name="colorMediumRed">#CD0000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="ltGray">#cccccc</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#ffffff</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <item name="button" type="id">0</item>
+    <string name="action_email">Sending email</string>
+    <string name="app_name">Baseball Recorder</string>
+    <string name="at_bats">At Bats:  </string>
+    <string name="doubles">Doubles:  </string>
+    <string name="event_type_RBI">RBI</string>
+    <string name="event_type_double">Double</string>
+    <string name="event_type_field_out">Field Out</string>
+    <string name="event_type_home_run">Home Run</string>
+    <string name="event_type_null">null</string>
+    <string name="event_type_scored_run">Made it Home</string>
+    <string name="event_type_single">Single</string>
+    <string name="event_type_steal">Stolen Base</string>
+    <string name="event_type_strikeout">Strikeout</string>
+    <string name="event_type_triple">Triple</string>
+    <string name="event_type_walk">Walk</string>
+    <string name="field_outs">Field Outs:  </string>
+    <string name="game_at_bats">"At Bats:          "</string>
+    <string name="game_ball">"Game Ball: "</string>
+    <string name="game_date">"Game date: "</string>
+    <string name="game_errors">"Errors:    "</string>
+    <string name="game_hits">"Hits: "</string>
+    <string name="game_score">"Game Score: "</string>
+    <string name="game_steals">"Steals:          "</string>
+    <string name="hits">Hits:  </string>
+    <string name="home_runs">Home Runs:  </string>
+    <string name="name_hint">Player Name</string>
+    <string name="player_name">Player Name</string>
+    <string name="runs_batted_in">RBI:  </string>
+    <string name="runs_scored">"Runs Scored: "</string>
+    <string name="runs_scoredA">Runs Scored A</string>
+    <string name="runs_scoredB">Runs Scored B</string>
+    <string name="saved_RBIs">Saved RBIs</string>
+    <string name="saved_at_bats">Saved At Bats</string>
+    <string name="saved_doubles">Saved Doubles</string>
+    <string name="saved_field_outs">Saved Field Outs</string>
+    <string name="saved_game_date">Saved Game Date</string>
+    <string name="saved_hits">Saved Hits</string>
+    <string name="saved_home_runs">Saved Home Runs</string>
+    <string name="saved_player_name">Player Name</string>
+    <string name="saved_runs_scored">Saved Runs Scored</string>
+    <string name="saved_scoreA">Saved Score A</string>
+    <string name="saved_scoreB">Saved Score B</string>
+    <string name="saved_singles">Saved Singles</string>
+    <string name="saved_steals">Saved Steals</string>
+    <string name="saved_strikeouts">Saved Strikeouts</string>
+    <string name="saved_triples">Saved Triples</string>
+    <string name="saved_walks">Saved Walks</string>
+    <string name="scored">Made it home:  </string>
+    <string name="singles">Singles:  </string>
+    <string name="steals">Steals:  </string>
+    <string name="strikeouts">Strikeouts:  </string>
+    <string name="triples">Triples:  </string>
+    <string name="walks">Walks:  </string>
+    <style name="AppTheme" parent="android:style/Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+</resources>

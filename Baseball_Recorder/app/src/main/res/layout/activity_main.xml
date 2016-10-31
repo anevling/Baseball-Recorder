@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:title="@string/app_name"
+            android:background="#663300" />
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#01a611">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context="sports_recorder.sportsrecorder.MainActivity">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingTop="64dip"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="101dp"
+                        android:layout_height="69dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/name_hint"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#A4C639" />
+
+
+
+                    <EditText
+                        android:id="@+id/editText1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/textView2"
+                        android:layout_toRightOf="@+id/textView2"
+                        android:background="#CCCCCC"
+                        android:ems="10"
+                        android:inputType="textPersonName" >
+
+                        <requestFocus />
+
+                    </EditText>
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/textView2"
+                        android:text="Use"
+                        android:background="#006400"
+
+                        android:textColor="#000000" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:paddingTop="64dip"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/tripleButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Triples"
+                        android:backgroundTint="@color/cyan"/>
+
+                    <Button
+                        android:id="@+id/homeRunButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Home Runs"
+                        android:backgroundTint="@color/cyan"/>
+
+
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingTop="32dip"
+                android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/runScoredButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Runs Scored"
+                        android:backgroundTint="@color/cyan"/>
+                    <Button
+                        android:id="@+id/stealsButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Steals"
+                        android:backgroundTint="@color/cyan"/>
+
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingTop="32dip"
+                android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/walkButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Walks"
+                        android:backgroundTint="@color/cyan"/>
+                <Button
+                    android:id="@+id/singleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Singles"
+                    android:backgroundTint="@color/cyan"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:paddingTop="32dip"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/strikeoutButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/strikeouts"
+                        android:backgroundTint="@color/cyan"/>
+                    <Button
+                        android:id="@+id/fieldOutButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/field_outs"
+                        android:backgroundTint="@color/cyan"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:paddingTop="32dip"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/doubleButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Doubles"
+                        android:backgroundTint="@color/cyan"/>
+                    <Button
+                        android:id="@+id/runsBattedInButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RBIs"
+                        android:backgroundTint="@color/cyan"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginLeft="132dip"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/score1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#AA000000"
+                    android:padding="5dip"
+                    android:text="0"
+                    android:textColor="@color/colorMediumRed"
+                    android:minWidth="50dp"
+                    android:layout_gravity="right" />
+
+
+
+
+                <Button
+                    android:id="@+id/vsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#AA000000"
+                    android:padding="4dip"
+                    android:text="To"
+                    android:textColor="#ffffffff"
+                    android:minWidth="50dp"
+                    android:layout_gravity="right" />
+
+
+
+                <Button
+                    android:id="@+id/score2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#AA000000"
+                    android:padding="5dip"
+                    android:text="0"
+                    android:textColor="@color/colorMediumBlue"
+                    android:minWidth="50dp"
+                    android:layout_gravity="right" />
+            </LinearLayout>
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <!-- Drawer items here -->
+    <ListView
+        android:id="@+id/drawer_list_view"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#663300" />
+
+</android.support.v4.widget.DrawerLayout>
