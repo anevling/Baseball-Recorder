@@ -1,2 +1,5 @@
 # Baseball-Recorder
-Little League App
+App built for parents of Little League Players
+
+Current Functionality:
+Record offensive stats for little league game
